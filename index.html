@@ -22,9 +22,7 @@
 <body>
     <script>
         let kujis = ['大吉','吉','吉','吉','中吉','中吉','小吉','小吉','小吉','末吉','末吉','凶','凶','大凶'];
-        // console.log(kujis[1]);でコンソールに吉が表示される
-        let kuji = Math.floor(Math.random()*14);
-        // console.log(kuji);
+        let kuji = Math.floor(Math.random()*kujis.length);
 
         document.write('<p>あなたの今日の運勢は、' + kujis[kuji] + ' です</p>');
     </script>
